@@ -16,6 +16,7 @@ body {
 
 p {
   color: grey;
+  line-height: 1.6;
 }
 
 li {
@@ -29,6 +30,12 @@ a {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+hr {
+  width: 50px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Buttons */
@@ -138,6 +145,24 @@ header {
 .action-text h2 {
   margin-bottom: 15px;
   font-size: 25px;
+}
+
+/* Sezione 3 colonne */
+.description-column {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.description-column img {
+  height: 130px;
+  margin: 20px 0;
+}
+
+.description-column h3 {
+  color: #7cbb02;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 /* Pulsante HELP fixed */
