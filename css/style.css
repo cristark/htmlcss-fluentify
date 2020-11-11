@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .container {
   width: 80%;
   margin: auto;
-  /* border: 1px dotted white; */
   height: 800px;
 }
 
@@ -38,6 +41,12 @@ a {
   padding: 10px 30px;
 }
 
+.green-btn-big {
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 20px;
+}
+
 /* Float Rules */
 .clearfix::after {
   content: "";
@@ -64,6 +73,11 @@ header {
   background-position: 110% 100%;
 }
 
+.header {
+  position: relative;
+  height: 100%;
+}
+
 /* Nav-Bar */
 .header-nav {
   width: 100%;
@@ -86,4 +100,19 @@ header {
   display: inline-block;
   line-height: 100px;
   padding-left: 20px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 50px;
 }
