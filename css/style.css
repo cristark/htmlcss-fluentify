@@ -6,10 +6,10 @@
 }
 
 .container {
-  width: 800px;
+  width: 80%;
   margin: auto;
-  border: 1px dotted white;
-  height: 400px;
+  /* border: 1px dotted white; */
+  height: 800px;
 }
 
 li {
@@ -18,8 +18,24 @@ li {
 
 a {
   color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* Buttons */
+.transparent-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.green-btn {
+  background-color: #7cbb02;
+  border-radius: 5px;
+  padding: 10px 30px;
 }
 
 /* Float Rules */
@@ -33,18 +49,41 @@ a {
   float: left;
 }
 
+.f-right {
+  float: right;
+}
+
 /* Header */
 header {
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: #0c325a;
   background-image: url(../img/background-header.png);
   background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: 113% 100%;
+  background-size: 55%;
+  background-position: 110% 100%;
 }
 
 /* Nav-Bar */
+.header-nav {
+  width: 100%;
+  height: 100px;
+}
+
+.logo {
+  padding-top: 25px;
+  margin-right: 80px;
+}
+
 .sx-nav li {
   display: inline-block;
+  line-height: 100px;
+  padding-right: 20px;
+}
+
+.dx-nav li {
+  text-align: right;
+  display: inline-block;
+  line-height: 100px;
+  padding-left: 20px;
 }
