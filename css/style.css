@@ -221,10 +221,42 @@ main > hr {
   text-transform: none;
 }
 
+/* SEZIONE FINALE MAIN */
+.action-down {
+  background-color: #d3d5d7;
+  height: 100px;
+}
+
+.compile-left {
+  width: calc(100% / 2);
+}
+
+.compile-left h2 {
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.compile-right {
+  width: calc(100% / 2);
+  text-align: right;
+}
+
+.compile-right li {
+  display: inline-block;
+  line-height: 100px;
+  padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0c325a;
+  height: 35px;
+}
+
 /* Pulsante HELP fixed */
 .help-btn {
   position: fixed;
-  right: 140px;
+  right: 168px;
   bottom: 0;
   background-color: #e7222f;
   border-radius: 5px 5px 0 0;
