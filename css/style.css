@@ -49,16 +49,29 @@ hr {
   padding: 10px 30px;
 }
 
+.transparent-btn:hover {
+  background-color: #d3d5d7;
+  color: black;
+}
+
 .green-btn {
   background-color: #7cbb02;
   border-radius: 5px;
   padding: 10px 30px;
 }
 
+.green-btn:hover {
+  background-color: #679dd4;
+}
+
 .green-btn-big {
   background-color: #7cbb02;
   border-radius: 5px;
   padding: 20px;
+}
+
+.green-btn-big:hover {
+  background-color: #679dd4;
 }
 
 /* Float Rules */
@@ -103,11 +116,19 @@ header {
   padding-right: 20px;
 }
 
+.sx-nav a:hover {
+  border-bottom: 2px solid white;
+}
+
 .dx-nav li {
   text-align: right;
   display: inline-block;
   line-height: 100px;
   padding-left: 20px;
+}
+
+.dx-nav li:first-child a:hover {
+  border-bottom: 2px solid white;
 }
 
 /* Jumbotron */
@@ -221,6 +242,10 @@ main > hr {
   text-transform: none;
 }
 
+.test-text a:hover {
+  color: #7cbb02;
+}
+
 /* SEZIONE FINALE MAIN */
 .action-down {
   background-color: #d3d5d7;
@@ -234,6 +259,19 @@ main > hr {
 .compile-left h2 {
   line-height: 100px;
   font-size: 30px;
+}
+
+.compile-right select {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background: transparent;
+}
+
+.compile-right .styled-select select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
 }
 
 .compile-right {
@@ -253,6 +291,26 @@ footer {
   height: 35px;
 }
 
+.copyright small {
+  display: inline-block;
+  color: white;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.copyright img {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.copyright a {
+  text-decoration: underline;
+  text-transform: none;
+}
+
 /* Pulsante HELP fixed */
 .help-btn {
   position: fixed;
@@ -261,6 +319,11 @@ footer {
   background-color: #e7222f;
   border-radius: 5px 5px 0 0;
   padding: 10px 20px;
+}
+
+.help-btn:hover {
+  background-color: #b8141f;
+  cursor: pointer;
 }
 
 .help-btn a {
