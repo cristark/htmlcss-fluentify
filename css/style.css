@@ -14,6 +14,10 @@ body {
   margin: auto;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   color: grey;
   line-height: 1.6;
@@ -33,7 +37,7 @@ a {
 }
 
 hr {
-  width: 50px;
+  width: 80px;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -142,16 +146,16 @@ header {
   text-align: center;
 }
 
-.action-text h2 {
-  margin-bottom: 15px;
+.action-text h3 {
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
 /* Sezione 3 colonne */
 .description-column {
   width: calc(100% / 3);
   text-align: center;
-  padding: 30px 50px;
+  padding: 30px 80px;
 }
 
 .description-column img {
@@ -163,6 +167,58 @@ header {
   color: #7cbb02;
   margin-bottom: 20px;
   font-size: 20px;
+}
+
+/* Hr all'interno del Main */
+main > hr {
+  width: 98%;
+  margin: auto;
+  color: lightgray;
+}
+
+/* TEST VALUTAZIONE */
+.test {
+  height: 500px;
+}
+
+.test-img {
+  width: calc(100% / 2);
+  padding: 20px 50px;
+}
+
+.test-img img {
+  height: 450px;
+}
+
+.test-text-container {
+  width: calc(100% / 2);
+  padding: 20px 50px;
+  height: 100%;
+  position: relative;
+}
+
+.test-text {
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translate(0, -50%);
+  text-align: left;
+}
+
+.test-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.test-text p {
+  margin-bottom: 20px;
+}
+
+.test-text a {
+  color: blue;
+  text-decoration: underline;
+  text-transform: none;
 }
 
 /* Pulsante HELP fixed */
